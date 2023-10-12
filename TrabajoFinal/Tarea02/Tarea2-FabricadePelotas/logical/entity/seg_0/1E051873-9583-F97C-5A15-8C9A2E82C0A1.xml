@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E051873-9583-F97C-5A15-8C9A2E82C0A1" name="Plantas">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 15:52:00 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id Planta" id="D3CA37E9-A191-A45F-773A-FF8A10AEBE48">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 15:58:09 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Color" id="C6F23214-8416-E082-5249-8821DF7201C8">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 15:58:36 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Area" id="05B492A6-D7D3-F33B-59DF-C35E7536D4D9">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:01:17 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="57B55ECD-BBA8-9D4A-DE3F-5467E5EBBE0A" name="Plantas PK">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 15:58:27 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3CA37E9-A191-A45F-773A-FF8A10AEBE48</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

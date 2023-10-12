@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56B7D778-A82B-F4D3-832D-25D2DEDE6E57" name="Procesos">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>38D227F4-7620-BE04-3886-A2B652E215F6</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Procesos" id="9A117EDB-6EBF-3AFC-0628-EBF129F9633B">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>350CF51E-4F23-0D5F-C411-E160E2C4FDE9</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Plantas_Id_Planta" id="9E961557-9047-1FE7-9814-D9BEAB6E9388">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>A5E509A9-E7CA-3207-4145-AF4404A543D2</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F67AE8A-8BCF-1881-E4A9-A42D5E5807D0" referredColumn="14671B9A-5456-7A8D-5656-D1F3A1BD476B"/>
+</associations>
+</Column>
+<Column name="Nombre" id="DBE6A042-2044-E8CB-B71E-989F484269A7">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>531274D4-591A-E473-5833-88A80B87A622</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Grado_complejidad" id="0DB950DF-9823-8EBF-2238-0D48C0473DEA">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>B68EA66D-A666-EB4B-B66A-7282F8C48FF1</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AF6BDA01-EEA8-9DE3-7FE4-177F0EA434BD" name="Procesos_PK">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>CD7A1A67-E60B-9209-839F-F06A5B9F02F4</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A117EDB-6EBF-3AFC-0628-EBF129F9633B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93F67538-31C5-5526-64DD-E918D5A8FCF5" name="Procesos_Plantas_FK">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>A98D8A51-2960-8606-6354-C0A693E1BE05</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E961557-9047-1FE7-9814-D9BEAB6E9388"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

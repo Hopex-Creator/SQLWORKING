@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DDE312CF-7103-EB42-1FDE-5AE1BF12E80A" name="Maquinas">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>09EB469F-E132-96F3-B31E-7B779D92EE54</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Maquina" id="BDC5C75F-7608-D2A8-D42B-B6F852A17F76">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>C7D60E99-5108-7C43-AF3D-04331F92F7A8</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Plantas_Id_Planta" id="8A7A0AB3-D5A1-8D69-C41A-00E92D2FC2C3">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>5861A2D0-3B4F-4569-0CC1-978FB8E41EC7</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A24775C-4B11-0284-385B-4CEAA7768CD9" referredColumn="14671B9A-5456-7A8D-5656-D1F3A1BD476B"/>
+</associations>
+</Column>
+<Column name="Marca" id="77919EE6-5AAE-D7B9-79CB-09413B83C0E5">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>313EA10C-85F7-6F11-D8DC-1C03206B5BC8</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Modelo" id="DF85927C-A159-5D19-965B-C31919D2B548">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>DF627DC5-AFB4-3819-3293-2EBEB1A330FE</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="27874751-68A8-A4C0-7236-CC41D7B7EDB9">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>8AB8FB57-4E70-7886-5B9D-5A74C48285B0</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Maquina_Reemplazo" id="5AF9F9DF-8E44-66EF-7EFE-F0696C0BC7DC">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:30:17 UTC</createdTime>
+<generatorID>BA0A4D5C-09BA-67AA-840E-6EE4CB868CDC</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AEBD35C-4DE5-2499-D52A-4880E5C4447F" referredColumn="BDC5C75F-7608-D2A8-D42B-B6F852A17F76"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C3995F8-1069-2AF0-9025-8A5F513AAF67" name="Maquinas_PK">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>05C40607-A44C-97D6-3BDD-6E45136D7047</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDC5C75F-7608-D2A8-D42B-B6F852A17F76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21B06155-BA54-0B4A-8C06-4B79C793E80F" name="Maquinas__IDX">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:30:17 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EFBA6957-71CA-25A2-B48B-F679F31043A7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5AF9F9DF-8E44-66EF-7EFE-F0696C0BC7DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66647350-F2C7-BEA1-0358-3A70AB04B063" name="Maquinas_Plantas_FK">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>C688ED1D-1B06-37DA-4F18-172A2D62C4F4</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A7A0AB3-D5A1-8D69-C41A-00E92D2FC2C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D461025-746A-E382-C327-01A9E1309525" name="Maquinas_Maquinas_FK">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:30:17 UTC</createdTime>
+<generatorID>EFBA6957-71CA-25A2-B48B-F679F31043A7</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5AF9F9DF-8E44-66EF-7EFE-F0696C0BC7DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

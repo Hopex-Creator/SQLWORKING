@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4A1F190-52A8-B88B-3B38-4A991DA8757F" name="Contactos">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>FBB9D5E8-97AA-CDAA-C27A-D4BAA5A8AB0F</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Telefono" id="DE92D1E2-05CF-C63F-29E4-B33B7960FAA0">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>1B7E8FE7-3964-014A-41E2-D70BCC9D302B</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tecnicos_Id_Tecnicos" id="9B88A3E1-F74D-0BA5-FC11-9CEE96473B73">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>AD89E4BC-E575-2998-089C-56FB73B9B5D9</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58DBFF11-2165-910B-070C-7AC3BC8D62F1" referredColumn="987AA99E-19D7-A058-E9A1-5C9DE805B228"/>
+</associations>
+</Column>
+<Column name="Telefono" id="370C66C7-C13E-DF06-1591-E982CC6FDA9F">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>B71584CF-71FD-F02A-B2B6-939AB06162F6</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Contacto" id="84778EFA-BEC0-5315-C3A5-283D1105A8DD">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>107D1C40-9051-F151-E2D0-A944B61FD33C</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A0D9BB8B-F4BB-859E-5CFB-F1A3A9102D1B" name="Contactos_PK">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>ACD7EAED-E101-94C1-C1DB-84C71464BAD2</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE92D1E2-05CF-C63F-29E4-B33B7960FAA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08A70672-4B54-3679-68EB-9BF66BE77C15" name="Contactos_Tecnicos_FK">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>DBDB7524-0B7D-082E-4129-F886E20EC088</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B88A3E1-F74D-0BA5-FC11-9CEE96473B73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

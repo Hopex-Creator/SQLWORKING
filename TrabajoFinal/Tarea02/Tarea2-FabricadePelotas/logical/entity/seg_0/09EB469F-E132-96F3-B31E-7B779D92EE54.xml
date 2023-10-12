@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="09EB469F-E132-96F3-B31E-7B779D92EE54" name="Maquinas">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 15:53:13 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id Maquina" id="C7D60E99-5108-7C43-AF3D-04331F92F7A8">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:05:52 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Planta" id="5861A2D0-3B4F-4569-0CC1-978FB8E41EC7">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:16:39 UTC</createdTime>
+<generatorID>C688ED1D-1B06-37DA-4F18-172A2D62C4F4</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<referedAttribute>D3CA37E9-A191-A45F-773A-FF8A10AEBE48</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Marca" id="313EA10C-85F7-6F11-D8DC-1C03206B5BC8">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:06:08 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Modelo" id="DF627DC5-AFB4-3819-3293-2EBEB1A330FE">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:06:57 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estado" id="8AB8FB57-4E70-7886-5B9D-5A74C48285B0">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:07:12 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Maquina Reemplazo" id="BA0A4D5C-09BA-67AA-840E-6EE4CB868CDC">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:27:59 UTC</createdTime>
+<generatorID>EFBA6957-71CA-25A2-B48B-F679F31043A7</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<referedAttribute>C7D60E99-5108-7C43-AF3D-04331F92F7A8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05C40607-A44C-97D6-3BDD-6E45136D7047" name="Maquinas PK">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:06:07 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C7D60E99-5108-7C43-AF3D-04331F92F7A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

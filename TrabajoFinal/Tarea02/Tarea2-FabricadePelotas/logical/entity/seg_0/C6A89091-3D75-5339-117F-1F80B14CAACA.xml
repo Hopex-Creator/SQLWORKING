@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C6A89091-3D75-5339-117F-1F80B14CAACA" name="Horarios">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 15:57:28 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id Horarios" id="87807F80-18AE-B708-4C77-8033E7FA3AC6">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:08:13 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Maquina" id="F92945F9-E926-3E29-A389-8EA504488128">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:18:25 UTC</createdTime>
+<generatorID>4C180412-8E2E-7248-C434-A6E81D6DB73C</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<referedAttribute>C7D60E99-5108-7C43-AF3D-04331F92F7A8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Tecnicos" id="5D40CDB9-87E3-991D-9348-2516D475AAB1">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:19:29 UTC</createdTime>
+<generatorID>F47BCD29-6401-D9E4-F861-114931345A03</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<referedAttribute>23F40BBC-CC94-3E90-3776-D8364FAA8117</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha Inicio" id="26A1883D-4B11-A523-7906-5D07A1AE8756">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:08:37 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha Alta" id="E8A92F9E-62A3-E638-E8F3-4D57EC6EE209">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:09:24 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Turno" id="6B09E7A1-5844-8790-E7F3-43FAE8B7BA41">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:09:45 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F7AD8408-C885-87C5-A640-207DA3730DD5" name="Horarios PK">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:08:34 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>87807F80-18AE-B708-4C77-8033E7FA3AC6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

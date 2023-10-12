@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Contactos Tecnicos FK" directorySegmentName="seg_0" id="DBDB7524-0B7D-082E-4129-F886E20EC088">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:20:01 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<sourcePk>5C805388-5FA5-8D70-959A-FF195F1C62F4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>917F56C3-500F-D907-5164-D3F8E9A3D312</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FBB9D5E8-97AA-CDAA-C27A-D4BAA5A8AB0F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

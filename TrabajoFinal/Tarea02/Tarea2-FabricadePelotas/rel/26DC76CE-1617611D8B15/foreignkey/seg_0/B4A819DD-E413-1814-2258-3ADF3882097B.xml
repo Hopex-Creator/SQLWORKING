@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B4A819DD-E413-1814-2258-3ADF3882097B" containerWithKeyObject="6225593F-9385-5912-FCCF-B258644F5156" localFKIndex="4DB4BB3C-1C38-0A7B-FCF1-20F3B59E5230" name="Horarios_Tecnicos_FK">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>F47BCD29-6401-D9E4-F861-114931345A03</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<referredTableLongName>Tecnicos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>81E834E9-2922-D5AB-CEA3-B09BA9CDC9FA</referredTableID>
+<keyObject>BDBDABD8-2F01-708E-CF24-2140E21BBB11</keyObject>
+<referredKeyID>BDBDABD8-2F01-708E-CF24-2140E21BBB11</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Tecnicos</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

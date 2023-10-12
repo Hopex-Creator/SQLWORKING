@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FBB9D5E8-97AA-CDAA-C27A-D4BAA5A8AB0F" name="Contactos">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 15:57:54 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id Telefono" id="1B7E8FE7-3964-014A-41E2-D70BCC9D302B">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:13:21 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Tecnicos" id="AD89E4BC-E575-2998-089C-56FB73B9B5D9">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:20:01 UTC</createdTime>
+<generatorID>DBDB7524-0B7D-082E-4129-F886E20EC088</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<referedAttribute>23F40BBC-CC94-3E90-3776-D8364FAA8117</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="B71584CF-71FD-F02A-B2B6-939AB06162F6">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:13:56 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre Contacto" id="107D1C40-9051-F151-E2D0-A944B61FD33C">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:20:57 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ACD7EAED-E101-94C1-C1DB-84C71464BAD2" name="Contactos PK">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:13:55 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1B7E8FE7-3964-014A-41E2-D70BCC9D302B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

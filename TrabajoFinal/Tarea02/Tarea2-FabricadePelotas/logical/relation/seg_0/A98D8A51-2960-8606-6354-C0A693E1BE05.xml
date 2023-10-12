@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Procesos Plantas FK" directorySegmentName="seg_0" id="A98D8A51-2960-8606-6354-C0A693E1BE05">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:16:03 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<sourcePk>57B55ECD-BBA8-9D4A-DE3F-5467E5EBBE0A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1E051873-9583-F97C-5A15-8C9A2E82C0A1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>38D227F4-7620-BE04-3886-A2B652E215F6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

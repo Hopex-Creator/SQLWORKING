@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Tarea2-FabricadePelotas" id="69AB8AE0-8CC9-1217-1928-8254B3D8EBF3" version="3.5">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 15:51:10 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>69AB8AE0-8CC9-1217-1928-8254B3D8EBF3</designId>
+</OSDM_Design>

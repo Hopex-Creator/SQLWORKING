@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6225593F-9385-5912-FCCF-B258644F5156" name="Horarios">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>C6A89091-3D75-5339-117F-1F80B14CAACA</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Horarios" id="61C30E2F-71C2-88F2-2F16-B14EF64163F3">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>87807F80-18AE-B708-4C77-8033E7FA3AC6</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Maquinas_Id_Maquina" id="B9771599-74C1-C67C-6080-1025AC3CDEF5">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>F92945F9-E926-3E29-A389-8EA504488128</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21AD4209-15C9-571C-7350-4B88A6F9D0F9" referredColumn="BDC5C75F-7608-D2A8-D42B-B6F852A17F76"/>
+</associations>
+</Column>
+<Column name="Tecnicos_Id_Tecnicos" id="235A9739-7313-B065-F6C3-0D8AA57E743C">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>5D40CDB9-87E3-991D-9348-2516D475AAB1</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4A819DD-E413-1814-2258-3ADF3882097B" referredColumn="987AA99E-19D7-A058-E9A1-5C9DE805B228"/>
+</associations>
+</Column>
+<Column name="Fecha_Inicio" id="201162B8-E8AF-4DDA-792A-662B38C37DFA">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>26A1883D-4B11-A523-7906-5D07A1AE8756</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Alta" id="3DE56B45-6F7C-680B-C5FC-78ED870DFB9E">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>E8A92F9E-62A3-E638-E8F3-4D57EC6EE209</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Turno" id="AB264E35-467E-8E92-B6FA-46182B23E22D">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>6B09E7A1-5844-8790-E7F3-43FAE8B7BA41</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6892E9DD-F3C1-2689-18CD-878A3E0BD989" name="Horarios_PK">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>F7AD8408-C885-87C5-A640-207DA3730DD5</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61C30E2F-71C2-88F2-2F16-B14EF64163F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF2A2358-EB33-FDFA-783E-8335ECF8D59F" name="Horarios_Maquinas_FK">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>4C180412-8E2E-7248-C434-A6E81D6DB73C</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9771599-74C1-C67C-6080-1025AC3CDEF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DB4BB3C-1C38-0A7B-FCF1-20F3B59E5230" name="Horarios_Tecnicos_FK">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>F47BCD29-6401-D9E4-F861-114931345A03</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="235A9739-7313-B065-F6C3-0D8AA57E743C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

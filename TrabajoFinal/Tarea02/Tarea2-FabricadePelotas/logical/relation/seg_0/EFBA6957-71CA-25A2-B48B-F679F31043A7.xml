@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Maquinas Maquinas FK" directorySegmentName="seg_0" id="EFBA6957-71CA-25A2-B48B-F679F31043A7">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:27:59 UTC</createdTime>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<engineerTo>
+<item key="26DC76CE-B7E8-E661-D6DC-1617611D8B15" value="true"/>
+</engineerTo>
+<targetPk>05C40607-A44C-97D6-3BDD-6E45136D7047</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>09EB469F-E132-96F3-B31E-7B779D92EE54</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>09EB469F-E132-96F3-B31E-7B779D92EE54</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

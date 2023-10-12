@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="21AD4209-15C9-571C-7350-4B88A6F9D0F9" containerWithKeyObject="6225593F-9385-5912-FCCF-B258644F5156" localFKIndex="DF2A2358-EB33-FDFA-783E-8335ECF8D59F" name="Horarios_Maquinas_FK">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>4C180412-8E2E-7248-C434-A6E81D6DB73C</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<referredTableLongName>Maquinas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DDE312CF-7103-EB42-1FDE-5AE1BF12E80A</referredTableID>
+<keyObject>1C3995F8-1069-2AF0-9025-8A5F513AAF67</keyObject>
+<referredKeyID>1C3995F8-1069-2AF0-9025-8A5F513AAF67</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Maquina</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

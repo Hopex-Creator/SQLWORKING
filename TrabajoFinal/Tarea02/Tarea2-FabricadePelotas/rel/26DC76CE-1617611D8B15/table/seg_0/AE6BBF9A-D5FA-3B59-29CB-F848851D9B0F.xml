@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE6BBF9A-D5FA-3B59-29CB-F848851D9B0F" name="Plantas">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>1E051873-9583-F97C-5A15-8C9A2E82C0A1</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Planta" id="14671B9A-5456-7A8D-5656-D1F3A1BD476B">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>D3CA37E9-A191-A45F-773A-FF8A10AEBE48</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Color" id="4BCE4ECC-C79A-4A53-E2E1-D9BDDC41B9D9">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>C6F23214-8416-E082-5249-8821DF7201C8</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Area" id="38E2E9EF-AA61-9EC9-860D-B5EE24C97449">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>05B492A6-D7D3-F33B-59DF-C35E7536D4D9</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5731004-9795-8FD1-746B-8A88C4BD58D1" name="Plantas_PK">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 16:22:13 UTC</createdTime>
+<generatorID>57B55ECD-BBA8-9D4A-DE3F-5467E5EBBE0A</generatorID>
+<ownerDesignName>Tarea2-FabricadePelotas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14671B9A-5456-7A8D-5656-D1F3A1BD476B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
