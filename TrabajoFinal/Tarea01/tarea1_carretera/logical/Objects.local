@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="62BD3553-7B7F-4A0A-7F8C-D6182A2F1EB5" name="Tramo" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="33CA353B-7FEA-825C-9C1F-6ACE019878E2" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="F3386838-5127-BF0E-7B68-F8736F720A75" name="CARRETERA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="33CA353B-7FEA-825C-9C1F-6ACE019878E2" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="BBAD470B-997C-8C1D-EE15-7A54F18034B0" name="Relation_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="33CA353B-7FEA-825C-9C1F-6ACE019878E2" propertySourceId="F3386838-5127-BF0E-7B68-F8736F720A75" propertyTargetId="62BD3553-7B7F-4A0A-7F8C-D6182A2F1EB5"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F3386838-5127-BF0E-7B68-F8736F720A75" name="CARRETERA">
+<createdBy>MIJAEL</createdBy>
+<createdTime>2023-10-13 23:33:46 UTC</createdTime>
+<ownerDesignName>tarea1_carretera</ownerDesignName>
+<engineerTo>
+<item key="DB8DD714-CD14-014A-9F60-3E6CEFB2B7A4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_carretera" id="B7BDD3BD-4812-9ADC-579E-1FB13F0E8471">
+<createdBy>MIJAEL</createdBy>
+<createdTime>2023-10-13 23:33:59 UTC</createdTime>
+<ownerDesignName>tarea1_carretera</ownerDesignName>
+<engineerTo>
+<item key="DB8DD714-CD14-014A-9F60-3E6CEFB2B7A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_carretera" id="6AAA82F8-E530-2240-93A7-29C0F5E5B547">
+<createdBy>MIJAEL</createdBy>
+<createdTime>2023-10-13 23:34:18 UTC</createdTime>
+<ownerDesignName>tarea1_carretera</ownerDesignName>
+<engineerTo>
+<item key="DB8DD714-CD14-014A-9F60-3E6CEFB2B7A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="categoria" id="229C88A5-3213-1CBC-C23E-E7BE482E2D0F">
+<createdBy>MIJAEL</createdBy>
+<createdTime>2023-10-13 23:34:41 UTC</createdTime>
+<ownerDesignName>tarea1_carretera</ownerDesignName>
+<engineerTo>
+<item key="DB8DD714-CD14-014A-9F60-3E6CEFB2B7A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="concluye_confluye" id="8F20F1DC-CE35-9EBD-93E9-87C2448F726A">
+<createdBy>MIJAEL</createdBy>
+<createdTime>2023-10-13 23:35:00 UTC</createdTime>
+<ownerDesignName>tarea1_carretera</ownerDesignName>
+<engineerTo>
+<item key="DB8DD714-CD14-014A-9F60-3E6CEFB2B7A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="km_inicial" id="D3891530-B483-C187-7C08-B13AB8BA43D0">
+<createdBy>MIJAEL</createdBy>
+<createdTime>2023-10-13 23:35:24 UTC</createdTime>
+<ownerDesignName>tarea1_carretera</ownerDesignName>
+<engineerTo>
+<item key="DB8DD714-CD14-014A-9F60-3E6CEFB2B7A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="km_final" id="06DAB6AF-526B-DFE5-70DD-46D7701F7644">
+<createdBy>MIJAEL</createdBy>
+<createdTime>2023-10-13 23:35:48 UTC</createdTime>
+<ownerDesignName>tarea1_carretera</ownerDesignName>
+<engineerTo>
+<item key="DB8DD714-CD14-014A-9F60-3E6CEFB2B7A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="km_confluencia" id="0281A17A-7CF3-A0A6-23BA-A91882D911BE">
+<createdBy>MIJAEL</createdBy>
+<createdTime>2023-10-13 23:36:10 UTC</createdTime>
+<ownerDesignName>tarea1_carretera</ownerDesignName>
+<engineerTo>
+<item key="DB8DD714-CD14-014A-9F60-3E6CEFB2B7A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BC58ABB2-DBFD-FE63-97B6-E834A0CB6345" name="CARRETERA PK">
+<createdBy>MIJAEL</createdBy>
+<createdTime>2023-10-13 23:34:17 UTC</createdTime>
+<ownerDesignName>tarea1_carretera</ownerDesignName>
+<engineerTo>
+<item key="DB8DD714-CD14-014A-9F60-3E6CEFB2B7A4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B7BDD3BD-4812-9ADC-579E-1FB13F0E8471</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

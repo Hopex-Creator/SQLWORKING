@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="62BD3553-7B7F-4A0A-7F8C-D6182A2F1EB5" name="Tramo">
+<createdBy>MIJAEL</createdBy>
+<createdTime>2023-10-13 23:36:40 UTC</createdTime>
+<ownerDesignName>tarea1_carretera</ownerDesignName>
+<engineerTo>
+<item key="DB8DD714-CD14-014A-9F60-3E6CEFB2B7A4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tramo" id="3762AF6E-1A7C-5DCC-0D19-305B255DC6F7">
+<createdBy>MIJAEL</createdBy>
+<createdTime>2023-10-13 23:36:46 UTC</createdTime>
+<ownerDesignName>tarea1_carretera</ownerDesignName>
+<engineerTo>
+<item key="DB8DD714-CD14-014A-9F60-3E6CEFB2B7A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_carretera" id="B3BF94D6-1CFD-1658-0AA2-1B9FC8A64E68">
+<createdBy>MIJAEL</createdBy>
+<createdTime>2023-10-13 23:36:59 UTC</createdTime>
+<ownerDesignName>tarea1_carretera</ownerDesignName>
+<engineerTo>
+<item key="DB8DD714-CD14-014A-9F60-3E6CEFB2B7A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="inicio_comuna" id="2797E37F-09D5-3BC4-2FEF-B8EA86EE491C">
+<createdBy>MIJAEL</createdBy>
+<createdTime>2023-10-13 23:37:17 UTC</createdTime>
+<ownerDesignName>tarea1_carretera</ownerDesignName>
+<engineerTo>
+<item key="DB8DD714-CD14-014A-9F60-3E6CEFB2B7A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="final_comuna" id="DE87DD68-8622-A704-52C8-081254ADA4C4">
+<createdBy>MIJAEL</createdBy>
+<createdTime>2023-10-13 23:37:48 UTC</createdTime>
+<ownerDesignName>tarea1_carretera</ownerDesignName>
+<engineerTo>
+<item key="DB8DD714-CD14-014A-9F60-3E6CEFB2B7A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_carretera1" id="373E17B0-387B-F07E-304C-C5B602B01B78">
+<createdBy>MIJAEL</createdBy>
+<createdTime>2023-10-13 23:38:31 UTC</createdTime>
+<generatorID>BBAD470B-997C-8C1D-EE15-7A54F18034B0</generatorID>
+<ownerDesignName>tarea1_carretera</ownerDesignName>
+<engineerTo>
+<item key="DB8DD714-CD14-014A-9F60-3E6CEFB2B7A4" value="true"/>
+</engineerTo>
+<referedAttribute>B7BDD3BD-4812-9ADC-579E-1FB13F0E8471</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="67FD9B05-07BD-7F47-226B-99F5CC3D1F27" name="Tramo PK">
+<createdBy>MIJAEL</createdBy>
+<createdTime>2023-10-13 23:36:57 UTC</createdTime>
+<ownerDesignName>tarea1_carretera</ownerDesignName>
+<engineerTo>
+<item key="DB8DD714-CD14-014A-9F60-3E6CEFB2B7A4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3762AF6E-1A7C-5DCC-0D19-305B255DC6F7</attributeRef>
+<attributeRef>373E17B0-387B-F07E-304C-C5B602B01B78</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

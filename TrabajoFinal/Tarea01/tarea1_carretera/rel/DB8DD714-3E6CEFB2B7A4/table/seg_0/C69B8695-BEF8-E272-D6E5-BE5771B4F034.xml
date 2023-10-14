@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C69B8695-BEF8-E272-D6E5-BE5771B4F034" name="Tramo">
+<createdBy>MIJAEL</createdBy>
+<createdTime>2023-10-13 23:39:25 UTC</createdTime>
+<generatorID>62BD3553-7B7F-4A0A-7F8C-D6182A2F1EB5</generatorID>
+<ownerDesignName>tarea1_carretera</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tramo" id="76CB4B8E-633F-F737-99EA-3E8ED8E08BF6">
+<createdBy>MIJAEL</createdBy>
+<createdTime>2023-10-13 23:39:25 UTC</createdTime>
+<generatorID>3762AF6E-1A7C-5DCC-0D19-305B255DC6F7</generatorID>
+<ownerDesignName>tarea1_carretera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_carretera" id="BCD927C1-67BC-B485-B60F-C96E0F652E0C">
+<createdBy>MIJAEL</createdBy>
+<createdTime>2023-10-13 23:39:25 UTC</createdTime>
+<generatorID>B3BF94D6-1CFD-1658-0AA2-1B9FC8A64E68</generatorID>
+<ownerDesignName>tarea1_carretera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="inicio_comuna" id="374129E0-FD9F-836C-A5DB-66857C86963C">
+<createdBy>MIJAEL</createdBy>
+<createdTime>2023-10-13 23:39:25 UTC</createdTime>
+<generatorID>2797E37F-09D5-3BC4-2FEF-B8EA86EE491C</generatorID>
+<ownerDesignName>tarea1_carretera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="final_comuna" id="2768725B-14B0-4717-1C3D-FE5DA6F0BDC6">
+<createdBy>MIJAEL</createdBy>
+<createdTime>2023-10-13 23:39:25 UTC</createdTime>
+<generatorID>DE87DD68-8622-A704-52C8-081254ADA4C4</generatorID>
+<ownerDesignName>tarea1_carretera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARRETERA_id_carretera" id="2C85C7D2-84E3-0EF3-D6A3-AC01EB6E9100">
+<createdBy>MIJAEL</createdBy>
+<createdTime>2023-10-13 23:39:25 UTC</createdTime>
+<generatorID>373E17B0-387B-F07E-304C-C5B602B01B78</generatorID>
+<ownerDesignName>tarea1_carretera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F096616-94D6-D699-1752-F48332A4507E" referredColumn="2ECE28EA-2B02-9A23-7FDA-68F5957F8479"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE00C08C-5128-56E9-5823-F7F42A2AAED4" name="Tramo_PK">
+<createdBy>MIJAEL</createdBy>
+<createdTime>2023-10-13 23:39:25 UTC</createdTime>
+<generatorID>67FD9B05-07BD-7F47-226B-99F5CC3D1F27</generatorID>
+<ownerDesignName>tarea1_carretera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76CB4B8E-633F-F737-99EA-3E8ED8E08BF6"/>
+<colUsage columnID="2C85C7D2-84E3-0EF3-D6A3-AC01EB6E9100"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C999D196-A6C5-F72F-BD0E-0ECCC76717A7" name="Tramo_CARRETERA_FK">
+<createdBy>MIJAEL</createdBy>
+<createdTime>2023-10-13 23:39:25 UTC</createdTime>
+<generatorID>BBAD470B-997C-8C1D-EE15-7A54F18034B0</generatorID>
+<ownerDesignName>tarea1_carretera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C85C7D2-84E3-0EF3-D6A3-AC01EB6E9100"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

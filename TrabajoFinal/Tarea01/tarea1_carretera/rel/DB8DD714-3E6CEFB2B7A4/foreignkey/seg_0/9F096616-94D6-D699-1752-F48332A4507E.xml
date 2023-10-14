@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9F096616-94D6-D699-1752-F48332A4507E" containerWithKeyObject="C69B8695-BEF8-E272-D6E5-BE5771B4F034" localFKIndex="C999D196-A6C5-F72F-BD0E-0ECCC76717A7" name="Tramo_CARRETERA_FK">
+<createdBy>MIJAEL</createdBy>
+<createdTime>2023-10-13 23:39:25 UTC</createdTime>
+<generatorID>BBAD470B-997C-8C1D-EE15-7A54F18034B0</generatorID>
+<ownerDesignName>tarea1_carretera</ownerDesignName>
+<referredTableLongName>CARRETERA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9F685354-68F1-A33D-DD25-31987B22CD19</referredTableID>
+<keyObject>58AF6E16-8D27-E8C3-0176-84C8CF9612BC</keyObject>
+<referredKeyID>58AF6E16-8D27-E8C3-0176-84C8CF9612BC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_carretera</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
