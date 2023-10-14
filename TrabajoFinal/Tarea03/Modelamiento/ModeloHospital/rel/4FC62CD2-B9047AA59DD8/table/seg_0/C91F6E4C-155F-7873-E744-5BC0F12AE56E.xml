@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C91F6E4C-155F-7873-E744-5BC0F12AE56E" name="empleados">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 18:05:33 UTC</createdTime>
+<generatorID>416CA1FF-7E72-7353-11B9-D68F6112ACD6</generatorID>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_emp" id="44960083-4C05-0B53-1851-21F5EE706FF2">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 18:05:33 UTC</createdTime>
+<generatorID>B2DCA5F2-AE8C-A91D-2F49-CF6609CA60A5</generatorID>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_dep" id="0B21B469-CEEB-6DE5-6A47-91CCA4E63FDC">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 18:05:33 UTC</createdTime>
+<generatorID>5A0847A5-87B4-BFD4-52D3-5882F0FF37E5</generatorID>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C05563B-9E3C-2745-3F22-805A78926F56" referredColumn="259F791D-E026-1B9E-103C-D635C390CCDD"/>
+</associations>
+</Column>
+<Column name="ape_emp" id="CC94E2D4-F533-6D8B-2306-3248F471DCC2">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 18:05:33 UTC</createdTime>
+<generatorID>ECDAEA2F-53D3-4F2C-5CC7-23269BDF3CD9</generatorID>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="oficio_emp" id="4D3E3D7F-FB60-3F4A-4842-74B47FFE0DA8">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 18:05:33 UTC</createdTime>
+<generatorID>DDDAE5C1-BF1E-9413-4926-B9B7E12B17A3</generatorID>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direc_emp" id="F35FCF6D-20B8-E86A-06A6-874030CF3BEA">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 18:05:33 UTC</createdTime>
+<generatorID>98F85CE5-3A37-C7A5-6E54-F3EF76110301</generatorID>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salario_emp" id="D15B7785-4DD1-E081-0117-E4C65BB55EDE">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 18:05:33 UTC</createdTime>
+<generatorID>660029F9-3B4B-2BE3-274C-0148F500579B</generatorID>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comision_emp" id="1A831F1D-ED16-48BE-1E54-0C57E4814411">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 18:05:33 UTC</createdTime>
+<generatorID>5860E45F-A64A-3E1C-1F42-AC5864D9AB68</generatorID>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16CCCF88-806F-4097-7268-401F0CE82B7F" name="empleados_PK">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 18:05:33 UTC</createdTime>
+<generatorID>2F0874DC-96AC-66A6-EC82-AC65BA771179</generatorID>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44960083-4C05-0B53-1851-21F5EE706FF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64BD4B9B-6C68-2962-A587-8852DB36A8BA" name="empleados_departamentos_FK">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 18:05:33 UTC</createdTime>
+<generatorID>21729FE9-6160-82D6-4E44-2B42BE934B1F</generatorID>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B21B469-CEEB-6DE5-6A47-91CCA4E63FDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="empleados departamentos FK" directorySegmentName="seg_0" id="21729FE9-6160-82D6-4E44-2B42BE934B1F">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 18:04:24 UTC</createdTime>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<engineerTo>
+<item key="4FC62CD2-3801-539B-7838-B9047AA59DD8" value="true"/>
+</engineerTo>
+<sourcePk>870ABCC8-80EC-3B1A-310D-999DC38CEAE9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E37675A2-D956-832A-4602-A4F3336DC748</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>416CA1FF-7E72-7353-11B9-D68F6112ACD6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

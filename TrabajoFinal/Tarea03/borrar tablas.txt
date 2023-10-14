@@ -1,0 +1,3 @@
+DROP TABLE enfermos1;
+DROP TABLE empleados;
+DROP TABLE departamentos;

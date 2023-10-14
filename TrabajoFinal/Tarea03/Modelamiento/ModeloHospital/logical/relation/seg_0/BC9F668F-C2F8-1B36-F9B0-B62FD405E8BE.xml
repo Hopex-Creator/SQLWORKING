@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="enfermos_departamentos_FK" directorySegmentName="seg_0" id="BC9F668F-C2F8-1B36-F9B0-B62FD405E8BE">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 18:24:46 UTC</createdTime>
+<generatorID>F25FAE32-4736-0EF6-B47A-2191A2B114E1</generatorID>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<engineerTo>
+<item key="4FC62CD2-3801-539B-7838-B9047AA59DD8" value="true"/>
+</engineerTo>
+<sourcePk>870ABCC8-80EC-3B1A-310D-999DC38CEAE9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E37675A2-D956-832A-4602-A4F3336DC748</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4C1A2395-E65D-CA4E-3B1E-2815D10CB902</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

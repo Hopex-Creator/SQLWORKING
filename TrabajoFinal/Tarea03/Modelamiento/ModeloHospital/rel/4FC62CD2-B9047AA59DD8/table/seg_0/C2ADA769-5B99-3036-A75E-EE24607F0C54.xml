@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2ADA769-5B99-3036-A75E-EE24607F0C54" name="departamentos">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 18:05:33 UTC</createdTime>
+<generatorID>E37675A2-D956-832A-4602-A4F3336DC748</generatorID>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_dep" id="259F791D-E026-1B9E-103C-D635C390CCDD">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 18:05:33 UTC</createdTime>
+<generatorID>7A810AD8-680D-F2E5-372B-6AFA5B7B2E0A</generatorID>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_dep" id="F95A2A26-D9A9-C48F-F539-3C0EB7EE887E">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 18:05:33 UTC</createdTime>
+<generatorID>795591AB-865C-65D9-7A58-DBE7D5CEE367</generatorID>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="loc_pabellon" id="92527D82-4279-5160-B2C3-E78CB8F4BD9D">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 18:05:33 UTC</createdTime>
+<generatorID>5CD93898-1288-2AB0-1AB1-830366B341A0</generatorID>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C775EEBB-A600-7C78-FA91-3F33A5ED4EEC" name="departamentos_PK">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 18:05:33 UTC</createdTime>
+<generatorID>870ABCC8-80EC-3B1A-310D-999DC38CEAE9</generatorID>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="259F791D-E026-1B9E-103C-D635C390CCDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

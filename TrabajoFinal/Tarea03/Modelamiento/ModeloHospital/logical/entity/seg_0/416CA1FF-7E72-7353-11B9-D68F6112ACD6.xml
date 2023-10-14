@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="416CA1FF-7E72-7353-11B9-D68F6112ACD6" name="empleados">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 17:57:18 UTC</createdTime>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<engineerTo>
+<item key="4FC62CD2-3801-539B-7838-B9047AA59DD8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id emp" id="B2DCA5F2-AE8C-A91D-2F49-CF6609CA60A5">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 17:57:26 UTC</createdTime>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<engineerTo>
+<item key="4FC62CD2-3801-539B-7838-B9047AA59DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id dep" id="5A0847A5-87B4-BFD4-52D3-5882F0FF37E5">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 18:04:24 UTC</createdTime>
+<generatorID>21729FE9-6160-82D6-4E44-2B42BE934B1F</generatorID>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<engineerTo>
+<item key="4FC62CD2-3801-539B-7838-B9047AA59DD8" value="true"/>
+</engineerTo>
+<referedAttribute>7A810AD8-680D-F2E5-372B-6AFA5B7B2E0A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ape emp" id="ECDAEA2F-53D3-4F2C-5CC7-23269BDF3CD9">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 17:57:45 UTC</createdTime>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<engineerTo>
+<item key="4FC62CD2-3801-539B-7838-B9047AA59DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="oficio emp" id="DDDAE5C1-BF1E-9413-4926-B9B7E12B17A3">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 17:58:01 UTC</createdTime>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<engineerTo>
+<item key="4FC62CD2-3801-539B-7838-B9047AA59DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direc emp" id="98F85CE5-3A37-C7A5-6E54-F3EF76110301">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 17:58:21 UTC</createdTime>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<engineerTo>
+<item key="4FC62CD2-3801-539B-7838-B9047AA59DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salario emp" id="660029F9-3B4B-2BE3-274C-0148F500579B">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 17:58:40 UTC</createdTime>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<engineerTo>
+<item key="4FC62CD2-3801-539B-7838-B9047AA59DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comision emp" id="5860E45F-A64A-3E1C-1F42-AC5864D9AB68">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 17:59:33 UTC</createdTime>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<engineerTo>
+<item key="4FC62CD2-3801-539B-7838-B9047AA59DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_alta" id="74CB2215-12F4-619A-CE07-169A93C95B76">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 18:03:12 UTC</createdTime>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<engineerTo>
+<item key="4FC62CD2-3801-539B-7838-B9047AA59DD8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2F0874DC-96AC-66A6-EC82-AC65BA771179" name="empleados PK">
+<createdBy>USER</createdBy>
+<createdTime>2023-10-12 17:57:43 UTC</createdTime>
+<ownerDesignName>ModeloHospital</ownerDesignName>
+<engineerTo>
+<item key="4FC62CD2-3801-539B-7838-B9047AA59DD8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B2DCA5F2-AE8C-A91D-2F49-CF6609CA60A5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

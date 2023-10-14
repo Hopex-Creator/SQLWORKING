@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="E37675A2-D956-832A-4602-A4F3336DC748" name="departamentos" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="B787E3A9-6164-2E22-7773-8AB21B23EBD4" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="416CA1FF-7E72-7353-11B9-D68F6112ACD6" name="empleados" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="B787E3A9-6164-2E22-7773-8AB21B23EBD4" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="4C1A2395-E65D-CA4E-3B1E-2815D10CB902" name="enfermos" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="B787E3A9-6164-2E22-7773-8AB21B23EBD4" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="21729FE9-6160-82D6-4E44-2B42BE934B1F" name="empleados departamentos FK" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="B787E3A9-6164-2E22-7773-8AB21B23EBD4" propertySourceId="E37675A2-D956-832A-4602-A4F3336DC748" propertyTargetId="416CA1FF-7E72-7353-11B9-D68F6112ACD6"/>
+   <object objectType="Relation" objectID="BC9F668F-C2F8-1B36-F9B0-B62FD405E8BE" name="enfermos_departamentos_FK" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="B787E3A9-6164-2E22-7773-8AB21B23EBD4" propertySourceId="E37675A2-D956-832A-4602-A4F3336DC748" propertyTargetId="4C1A2395-E65D-CA4E-3B1E-2815D10CB902"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
